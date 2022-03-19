@@ -22,6 +22,9 @@ public class TestClass
 		
 		assertTrue(Calculation.containsElement(al,50));
 		System.out.println("Assert True for ArrayList");
+		System.out.println("------------------");
+
+		System.out.println("------------------");
 	}
 	
 	@Test(priority=2,groups= {"Array List"})
