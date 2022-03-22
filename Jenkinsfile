@@ -14,7 +14,7 @@ pipeline
 		{
 			steps
 			{
-				bat "mvn clean compile"
+			    bat "mvn -Dmaven.test.failure.ignore=true clean package"
 			}
 		}
 		
